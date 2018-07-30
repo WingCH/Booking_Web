@@ -3,6 +3,31 @@
 
 > Booking_Web is backend and frontend(Web), use Laravel PHP Framework, Bootstrap library and MariaDB 10.
 
+## Screenshot
+
+![macbookgrey_front](https://lh3.googleusercontent.com/-I0Hqytk-cXY/W17wF_PPSDI/AAAAAAAApQE/4yyZVj9bPRINRcl5WgPsiXooRYL6X1V3QCHMYCw/I/macbookgrey_front.png)
+
+
+
+<br />
+
+
+| Room booking time line | User booking status |
+| --- | --- |
+| ![1](https://lh3.googleusercontent.com/-J7QnjIC8GJw/W17u3CzTQ8I/AAAAAAAApPo/7UXuH0ZV-V8E1VUghbSvtqj8-GkHt7ZPQCHMYCw/I/1.png) | ![2](https://lh3.googleusercontent.com/-E7xk2Gfuoas/W17u3Yldd0I/AAAAAAAApP0/YRVgzw1NZvY9G0WsHKziDCkrT4Drb6YFACHMYCw/I/2.png) |  
+
+
+
+| Admin - Room status  | Admin - room manage |
+| --- | --- |
+| ![3](https://lh3.googleusercontent.com/-DHOoYFh-T9w/W17u3Hc7RcI/AAAAAAAApPw/DeoYkPUhtJE2knLC-wjmxz8AxDATXks8gCHMYCw/I/3.png) | ![4](https://lh3.googleusercontent.com/-a9BWTAM5ACs/W17u3Dx2T5I/AAAAAAAApPs/vjef4Zry9sY9MoUU-ZliFDxs8VTSgyhnQCHMYCw/I/4.png) |
+
+
+
+
+
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
