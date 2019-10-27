@@ -3,7 +3,6 @@
 @section('content')
 {{  Debugbar::info($rooms->toArray()) }}
 <div class="container">
-    <h1>Test</h1>
     <div class="row">
         @foreach ($rooms as $room)
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
