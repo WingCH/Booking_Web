@@ -32,3 +32,11 @@
 {{--    <script src="/resources/home/home.js" type="text/javascript">--}}
 {{--    </script>--}}
 @endsection
+
+@section('css')
+    <style>
+    a {
+        text-decoration: none !important;
+    }
+    </style>
+@endsection
