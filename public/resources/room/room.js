@@ -36,7 +36,7 @@ $(function () {
         events: function (start, end, timezone, callback) {
             jQuery.ajax({
                 url:
-                    "http://www.booking.wingpage.net/room/" +
+                    window.location.origin + "/room/" +
                     $("#room_id").val() +
                     "/getBooking",
                 type: "GET",
@@ -134,7 +134,7 @@ $(function () {
                     if (confirmBox == true) {
                         $.ajax({
                             type: "POST",
-                            url: "http://www.booking.wingpage.net/bookRoom",
+                            url: window.location.origin + "/bookRoom",
                             // dataType: "json",
                             data: {
                                 user_id: $("#user_id").val(),
@@ -190,7 +190,7 @@ $(function () {
             } else {
                 $.ajax({
                     type: "POST",
-                    url: "http://www.booking.wingpage.net/updateBookingTime",
+                    url: window.location.origin + "/updateBookingTime",
                     // dataType: "json",
                     data: {
                         booking_id: event.id,
