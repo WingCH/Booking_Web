@@ -14,7 +14,7 @@
     </div>
     @else
     <div class="col-md-10 col-md-offset-1">
-      <table data-check-on-init="true" data-mobile-responsive="true" data-search="true" data-show-columns="true" data-show-refresh="true" data-show-toggle="true" data-toggle="table" data-url="http://www.booking.wingpage.net/getBookingList/{{ Auth::user()->id}}"
+      <table data-check-on-init="true" data-mobile-responsive="true" data-search="true" data-show-columns="true" data-show-refresh="true" data-show-toggle="true" data-toggle="table" data-url="/getBookingList/{{ Auth::user()->id}}"
         id="historyTable">
         <thead>
           <tr>
