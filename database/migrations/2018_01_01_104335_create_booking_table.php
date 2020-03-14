@@ -20,8 +20,8 @@ class CreateBookingTable extends Migration
             // $table->timestamp('end');//結束時間
 
             //https://laracasts.com/discuss/channels/eloquent/why-table-timestamps-puts-on-update-current-timestamp-on-the-created-at-column
-            $table->nullableTimestamps('start');//開始時間
-            $table->nullableTimestamps('end');//結束時間 
+            $table->timestamp('start')->nullable();//開始時間
+            $table->timestamp('end')->nullable();//結束時間 
             $table->timestamps();
         });
     }
